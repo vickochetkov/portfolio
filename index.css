@@ -1,0 +1,258 @@
+.nav-pills{
+  font-family: Pirata One, Monotipe;
+  background-color:black;
+  overflow: hidden;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:2em;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+
+#navbar a:hover {
+  background-color: #2c6fae;
+  color: #00c4ff;
+}
+
+#navbar a.active {
+  background-color: #2c6fae;
+  color: black;
+}
+
+/* Page content */
+.content {
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
+}
+
+#twitterIcon {
+  color: #1da1f2;
+}
+#githubIcon {
+  color: #6e5494;
+}
+#linkedinIcon {
+  color: #0077b5;
+}
+#youtubeIcon {
+  color: #ff0000;
+}
+#facebookIcon {
+  color: #3b5998;
+}
+#freeCodeCampIcon {
+  color: #006400;
+}
+.block{
+  background-color: black;
+  opacity:.75;
+  padding:10px;
+  /*margin-left: 25%;*/
+  border-radius: 10px;
+  /*width: 50%*/
+}
+
+body {
+  background-color: white;
+  font-family: Lobster;
+  color: white;
+  margin: 0;  
+}
+
+.welcome {
+  font-family: Oswald, Monotipe;
+  text-align: center;
+  color: #d18f36;  
+  border-width: 3px;
+  border-style: ridge;
+  background-color: #060606;
+  opacity:.70;
+  padding:10px;
+  margin-top: 5%;
+  text-decoration: none;   
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0px;
+  font-size:7.0em; 
+}
+.p2 {
+  padding: 0;
+  margin-top: 0px;
+  font-size:5.0em; 
+}
+
+#p2 {
+  padding: 100px;
+  margin-top: 0px;
+  /*font-size:5.0em; */
+}
+
+.btn-default {
+  background-color: #013d6c;
+  border-color: black;
+  color: #337ab7;
+  font-size:2em;  
+}
+
+.pageOne{
+  background:url("https://images.unsplash.com/photo-1467086674598-290e1df3352f?auto=format&fit=crop&w=1951&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    background-size: cover;
+    height: 1200px;
+}
+
+.pageTwo {
+  background:url("https://images.unsplash.com/photo-1484851050019-ca9daf7736fb?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  height:  1200px;
+  padding-top: 2%;
+}
+.pageThree {
+  background:url("https://images.unsplash.com/photo-1446062061624-594b6e3403d7?auto=format&fit=crop&w=1952&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  padding-top: 4%;
+  padding-bottom:5%;
+}
+.pageFour {
+  background:url("https://images.unsplash.com/photo-1493619882410-1d8e0cd1159c?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  height:  1200px;
+  padding-top: 4%;
+}
+
+p {
+  font-size: 1.5em;
+  font-family:Tahoma;  
+}
+
+.ab {  
+  margin-left:10%;
+  border-width: 3px;
+  border-style: ridge;
+  background-color: black;
+  opacity:.75;
+  padding:10px;
+  margin-top: 25%;  
+}
+
+.contact {  
+  margin-left:10%;
+  border-width: 3px;
+  border-style: ridge;
+  background-color: #121921;
+  opacity:.80;
+  padding:10px;
+  margin-top: 30%;  
+}
+
+.about {
+  font-size: 1.5em;
+  font-family:Tahoma;  
+}
+
+.paddingTop{
+padding-top:2%;
+padding-bottom:2%;
+}
+.me {
+  height: 280px;
+  display:block;
+  margin: auto, auto, auto, auto; 
+  border-radius:50%;
+}
+
+.prjs {
+  width:80%; 
+  margin-left:10%;
+  border-width: 3px;
+  border-style: groove;
+  background-color: black;
+  opacity:.9;
+  padding:10px;
+  font-family: Impact;
+}
+
+
+.title-top {
+    width: 100%;
+    display: inline-block;    
+    margin: 0 0 15px;
+    padding: 0;
+    color: #e6fafd;
+    border-bottom: 3px solid #2c6fae;
+    text-align: center;gordon@mail.com    
+}
+
+.title {
+    width: 100%;
+    display: inline-block;    
+    margin: 0 0 15px;
+    padding: 0;
+    color: #d18f36;
+    border-bottom: 3px solid #2c6fae;
+    text-align: left;
+}
+
+form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        width: 90%;
+        /* To see the outline of the form */
+        padding: 1em;
+        border: 2px solid #CCC;
+        border-radius: 1em;
+      }
+
+      form div + div {
+        margin-top: 1em;
+      }
+
+      label {
+        /* To make sure that all labels have the same size and are properly aligned */
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+        font-size: 1.2em;
+        font-family:Tahoma; 
+      }
+
+input, textarea {  
+  font: 1.2em Tahoma;
+  color: black;  
+  width: 70%;
+  box-sizing: border-box;  
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {  
+  vertical-align: top;
+  height: 6em;
+}
+
+.button {
+  padding: 15px 25px;
+  font: 24px Tahoma;  
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #2c6fae;  
+}
+
+.button:hover {background-color: #00c4ff}
+
+.button:active {
+  background-color: #00c4ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
